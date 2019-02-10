@@ -13,7 +13,7 @@ forces,input.position,input.velocity,input.timestep,input.datetime,input.eop,inp
 ,input.drymass,input.cd,input.dragarea,input.propagationtime1
 if input.THRUSTER='ON',neccesary inputs are
 forces,input.position,input.velocity,input.timestep,input.datetime,input.eop,input.sw,input.atmosmodel,input.F107,input.F107A,input.magnetindex
-input.drymass,input.cd,input.dragarea,Tforces,input.fuelmass,input.thrustmag,input.thrustduration,input.thrusttimestep,input.beforethrust,
+,input.drymass,input.cd,input.dragarea,Tforces,input.fuelmass,input.thrustmag,input.thrustduration,input.thrusttimestep,input.beforethrust,
 input.afterthrust
 7-)Run the code.
 8-)Outputs are seen in the workspace as an "out" struct and also 3D orbit is shown. 
