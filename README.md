@@ -10,7 +10,7 @@ Orbit_Propagator_with_Perturbations
 6-)Enter the inputs with the following;
 if input.THRUSTER='OFF',neccesary inputs are
 forces,input.position,input.velocity,input.timestep,input.datetime,input.eop,input.sw,input.atmosmodel,input.F107,input.F107A,input.magnetindex
-input.drymass,input.cd,input.dragarea,input.propagationtime1
+,input.drymass,input.cd,input.dragarea,input.propagationtime1
 if input.THRUSTER='ON',neccesary inputs are
 forces,input.position,input.velocity,input.timestep,input.datetime,input.eop,input.sw,input.atmosmodel,input.F107,input.F107A,input.magnetindex
 input.drymass,input.cd,input.dragarea,Tforces,input.fuelmass,input.thrustmag,input.thrustduration,input.thrusttimestep,input.beforethrust,
